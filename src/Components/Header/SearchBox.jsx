@@ -2,9 +2,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import MovieItem from "../Items/MovieItem";
-import TvItem from "../Items/TvItem";
-import PersonItem from "../Items/PersonItem";
+import MovieItem from "../Items-searchBox/MovieItem";
+import TvItem from "../Items-searchBox/TvItem";
+import PersonItem from "../Items-searchBox/PersonItem";
 
 // async function searchMovie(query) {
 // setTimeout(async () => {

@@ -1,5 +1,5 @@
-import MoviesSlider from "../Main/MoviesSlider.jsx";
-import TvSlider from "../Main/TvSlider.jsx";
+import MoviesSlider from "../sliders/MoviesSlider.jsx";
+import TvSlider from "../sliders/TvSlider.jsx";
 
 import React from "react";
 

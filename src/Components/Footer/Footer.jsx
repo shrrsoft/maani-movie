@@ -43,7 +43,7 @@ export default function Footer() {
               <Link to={item.url} key={item.title} target="_blank">
                 <img
                   className="rounded-full size-8 opacity-70 hover:opacity-100"
-                  src={`/footer-socialNetwork-logo/${item.title}.jpg`}
+                  src={`/src/assets/footer-socialNetwork-logo/${item.title}.jpg`}
                   alt={item.title}
                 />
               </Link>

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import MoviesList from "../Main/MoviesList";
+import ManiSlider from "./MainSlider";
 
 export default function Home() {
   const [movieActiveTab, setMovieActiveTab] = useState("airing_today");
@@ -39,8 +39,8 @@ export default function Home() {
             Top rated
           </li>
         </ul>
-      </div>{" "}
-      <MoviesList type="tv" activeTab={movieActiveTab} />
+      </div>
+      <ManiSlider type="tv" activeTab={movieActiveTab} />
     </div>
   );
 }

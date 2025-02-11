@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Tvs() {
-  return <div>tv showes</div>;
+  return <div className="container relative top-[-32rem]">tv showes</div>;
 }

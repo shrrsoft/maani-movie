@@ -11,7 +11,7 @@ export default function Login() {
   }
 
   return (
-    <div className="container">
+    <div className="container relative top-[-32rem]">
       <p>{session}</p>
       <form
         className="mx-auto mt-3 flex flex-col gap-4 w-[15rem]"

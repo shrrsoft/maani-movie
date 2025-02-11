@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import MoviesCard from "../Movies/MoviesCard";
+import MoviesCard from "../MoviesCard";
 import axios from "axios";
 
-export default function MoviesList({ type, activeTab }) {
+export default function ManiSlider({ type, activeTab }) {
   const [movies, setMovies] = useState([]);
 
   const options = {
